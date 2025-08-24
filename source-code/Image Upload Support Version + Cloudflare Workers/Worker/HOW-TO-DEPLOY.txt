@@ -1,0 +1,27 @@
+Cloudflare Worker Deployment Steps
+---------------------------------
+
+1. Install Wrangler CLI:
+   npm install -g wrangler
+
+2. Get help:
+   wrangler --help
+
+3. Authenticate with Cloudflare:
+   wrangler login
+
+4. Deploy your project:
+   wrangler deploy
+
+5. Set Telegram bot token (will prompt for value):
+   wrangler secret put BOT_TOKEN
+
+6. Set Telegram chat ID (will prompt for value):
+   wrangler secret put CHAT_ID
+
+7. Redeploy your script to update secret variables (also act as updater):
+   wrangler deploy
+
+Notes:
+- For steps 5-6, you'll be prompted to enter the secret values
+- Make sure you're in your project directory when running these commands

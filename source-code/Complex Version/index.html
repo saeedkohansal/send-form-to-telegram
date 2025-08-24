@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Complex Version</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css">
+    <link rel="stylesheet" href="assets/styles/theme.css?v=1754161188">
+    <link rel="icon" href="assets/images/Telegram.ico">
+</head>
+
+<body>
+    <nav class="vertical-menu">
+        <a href="" class="active"><i class="fas fa-home"></i>Home</a>
+        <a href="pages/contact/"><i class="fas fa-envelope"></i>Contact</a>
+        <a href="pages/about/"><i class="fas fa-info-circle"></i>About</a>
+    </nav>
+
+    <div class="container">
+        <header>
+            <div class="logo">
+                <div class="logo-icon"></div>
+                <div class="logo-text">Wild Fusion AI</div>
+            </div>
+            <p class="tagline">Transform your face into amazing AI-powered videos</p>
+        </header>
+
+        <section class="hero">
+            <h2>Create Your AI Fusion Masterpiece</h2>
+            <p>Upload your photo and we'll transform you into an extraordinary video character fused with animals,
+                fantasy creatures, or anything you imagine!</p>
+            <div class="steps">
+                <div class="step">
+                    <div class="step-number">1</div>
+                    <div class="step-text">Upload your photo via WhatsApp</div>
+                </div>
+                <div class="step">
+                    <div class="step-number">2</div>
+                    <div class="step-text">Customize your video</div>
+                </div>
+                <div class="step">
+                    <div class="step-number">3</div>
+                    <div class="step-text">Receive your amazing video!</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- <section class="showcase">
+            <div class="showcase-item">
+                <h3>Your Face</h3>
+                <div class="media-container">
+                    <img src="assets/images/Elon-Musk.jpg" alt="Your Face">
+                </div>
+            </div>
+            <div class="showcase-item">
+                <h3>AI Generated Image</h3>
+                <div class="media-container">
+                    <img src="assets/images/AI-Generated-Image.jpg" alt="AI Generated Image">
+                </div>
+            </div>
+            <div class="showcase-item">
+                <h3>AI Transformation</h3>
+                <div class="media-container">
+                    <img src="assets/images/AI-Transformation.png" alt="AI Transformation">
+                </div>
+            </div>
+            <div class="showcase-item">
+                <h3>Final Output</h3>
+                <div class="media-container">
+                    <video controls poster="assets/images/AI-Transformation.png">
+                        <source src="assets/videos/sample-video.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+            </div>
+        </section> -->
+
+        <div class="form-container">
+            <div class="form-group user-contact-info-input">
+                <h3><i class="fas fa-user"></i>Contact Information</h3>
+                <input type="text" id="contact-info" placeholder="Your Email/WhatsApp/Telegram" class="contact-input"
+                    required>
+                <p class="contact-note">We'll contact you about your order.</p>
+            </div>
+
+            <!-- <div class="form-note">
+                <i class="fas fa-exclamation-circle"></i>
+                Important: You must upload your face photo using the form below
+            </div> -->
+
+            <div class="form-group upload-face-img">
+                <h3><i class="fas fa-camera"></i>Upload Your Face Photo</h3>
+                <div class="file-upload-container">
+                    <input type="file" id="face-photo" accept=".jpg,.jpeg,.png" required>
+                    <label for="face-photo" class="file-upload-label">
+                        <i class="fas fa-cloud-upload-alt"></i>
+                        <span>Click to upload a photo of your face</span>
+                        <div class="file-preview" id="file-preview"></div>
+                    </label>
+                </div>
+                <p class="info-box">
+                    <i class="fas fa-info-circle"></i>
+                    High-quality photos work best! Make sure your face is clearly visible.
+                </p>
+            </div>
+
+            <div class="form-group">
+                <h3><i class="fas fa-expand-arrows-alt"></i>Aspect Ratio</h3>
+                <div class="options-grid">
+                    <div class="option selected" data-price="0">
+                        <div class="option-title">9:16</div>
+                        <div class="option-desc">Portrait</div>
+                    </div>
+                    <div class="option" data-price="0">
+                        <div class="option-title">16:9</div>
+                        <div class="option-desc">Landscape</div>
+                    </div>
+                    <div class="option" data-price="0">
+                        <div class="option-title">1:1</div>
+                        <div class="option-desc">Square</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <h3><i class="fas fa-play"></i>Video Quality</h3>
+                <div class="options-grid">
+                    <div class="option selected" data-price="0">
+                        <div class="option-title">720p</div>
+                        <div class="option-desc">HD</div>
+                    </div>
+                    <div class="option" data-price="0">
+                        <div class="option-title">1080p</div>
+                        <div class="option-desc">Full HD</div>
+                    </div>
+                    <div class="option" data-price="0">
+                        <div class="option-title">4K</div>
+                        <div class="option-desc">Ultra HD</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <h3><i class="fas fa-film"></i>Frame Rate</h3>
+                <div class="options-grid">
+                    <div class="option selected" data-price="0">
+                        <div class="option-title">30fps</div>
+                        <div class="option-desc">Standard</div>
+                    </div>
+                    <div class="option" data-price="0">
+                        <div class="option-title">60fps</div>
+                        <div class="option-desc">Smooth</div>
+                    </div>
+                    <div class="option" data-price="0">
+                        <div class="option-title">120fps</div>
+                        <div class="option-desc">Ultra Smooth</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <h3><i class="fas fa-video"></i>Video Style</h3>
+                <div class="options-grid">
+                    <div class="option selected" data-price="0">
+                        <div class="option-title">Animal Fusion</div>
+                        <div class="option-desc">Combine with animals</div>
+                    </div>
+                    <div class="option" data-price="0">
+                        <div class="option-title">Fantasy Hero</div>
+                        <div class="option-desc">Mythical characters</div>
+                    </div>
+                    <div class="option" data-price="0">
+                        <div class="option-title">Cyberpunk</div>
+                        <div class="option-desc">Futuristic tech</div>
+                    </div>
+                    <div class="option" data-price="0">
+                        <div class="option-title">Superhero</div>
+                        <div class="option-desc">Comic book style</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <h3><i class="fas fa-music"></i>Music Style</h3>
+                <div class="options-grid">
+                    <div class="option selected" data-price="0">
+                        <div class="option-title">Epic</div>
+                        <div class="option-desc">Orchestral</div>
+                    </div>
+                    <div class="option" data-price="0">
+                        <div class="option-title">Electronic</div>
+                        <div class="option-desc">EDM</div>
+                    </div>
+                    <div class="option" data-price="0">
+                        <div class="option-title">Rock</div>
+                        <div class="option-desc">Energetic</div>
+                    </div>
+                    <div class="option" data-price="0">
+                        <div class="option-title">Hip-Hop</div>
+                        <div class="option-desc">Urban</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <h3><i class="fas fa-gift"></i>Delivery Options</h3>
+                <div class="options-grid">
+                    <div class="option selected" data-price="0">
+                        <div class="option-title">Standard</div>
+                        <div class="option-desc">3-5 days</div>
+                    </div>
+                    <div class="option" data-price="10">
+                        <div class="option-title">Express</div>
+                        <div class="option-desc">24-48 hours</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <h3><i class="fas fa-edit"></i>Additional Notes</h3>
+                <textarea id="additional-notes" rows="4"
+                    placeholder="Any special ideas or requests? Write them here..."></textarea>
+            </div>
+
+            <button class="submit-order-btn" id="submit-order-btn">
+                <i class="fas fa-cart-shopping"></i>Submit Order
+            </button>
+
+            <div class="loading" id="loading">
+                <div class="loader"></div>
+                <p>Preparing your order...</p>
+            </div>
+
+            <!-- <div class="info-box">
+                <i class="fas fa-info-circle"></i>
+                Don't have WhatsApp/Telegram? Click here!
+            </div> -->
+
+        </div>
+
+        <main class="special-cards">
+            <div class="suggestions">
+                <div class="suggestion-card">
+                    <h3><i class="fas fa-video"></i>Create AI Videos</h3>
+                    <p>Transform yourself into an animal fusion, fantasy hero, or cyberpunk character with our AI
+                        technology.</p>
+                </div>
+
+                <div class="suggestion-card">
+                    <h3><i class="fas fa-lightbulb"></i>Inspiration Gallery</h3>
+                    <p>Explore our gallery of AI-powered video transformations for creative ideas.</p>
+                </div>
+
+                <div class="suggestion-card">
+                    <h3><i class="fas fa-question-circle"></i>Support Center</h3>
+                    <p>Need help? Our support team is ready to assist you with any questions.</p>
+                </div>
+
+                <div class="suggestion-card">
+                    <h3><i class="fas fa-cogs"></i>Customization Options</h3>
+                    <p>Personalize your video with aspect ratio, quality settings, and special effects.</p>
+                </div>
+
+                <div class="suggestion-card">
+                    <h3><i class="fas fa-shipping-fast"></i>Express Delivery</h3>
+                    <p>Get your AI-generated video in 24-48 hours with our priority processing option.</p>
+                </div>
+
+                <div class="suggestion-card">
+                    <h3><i class="fas fa-award"></i>Quality Guarantee</h3>
+                    <p>We ensure premium quality results with free revisions until you're satisfied.</p>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <p>&copy; 2025 Wild Fusion AI. All rights reserved. Your journey into AI-powered creativity starts here.</p>
+        </footer>
+    </div>
+
+    <div class="pricing-banner">
+        <div class="price-container">
+            <div class="price-label">Total Price:</div>
+            <div class="price"><span class="currency">€</span><span id="total-price">43</span></div>
+        </div>
+        <div class="payment-methods">
+            <i class="fab fa-cc-paypal" title="PayPal"></i>
+            <i class="fas fa-credit-card" title="Credit Card"></i>
+            <i class="fas fa-university" title="Bank Transfer"></i>
+        </div>
+    </div>
+
+    <script src="assets/scripts/home.js?v=1754161188"></script>
+</body>
+
+</html>

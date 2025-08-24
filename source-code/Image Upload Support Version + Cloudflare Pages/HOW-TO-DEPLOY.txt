@@ -1,0 +1,17 @@
+Cloudflare Pages Deployment Steps
+---------------------------------
+
+1. Install Wrangler CLI:
+   npm install -g wrangler
+
+2. Get help:
+   wrangler --help
+
+3. Authenticate with Cloudflare:
+   wrangler login
+
+4. Deploy your project:
+   wrangler pages deploy
+
+Note:
+- Make sure you're in your project directory when running these commands

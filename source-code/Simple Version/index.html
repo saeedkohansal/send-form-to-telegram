@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simple Version</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="Telegram.ico">
+</head>
+
+<body>
+  <div class="card">
+    <h1>📬 Send Message to Telegram</h1>
+    <form id="telegramForm">
+      <input type="text" name="name" placeholder="Your Name" required>
+      <input type="email" name="email" placeholder="Email" required>
+      <textarea name="message" placeholder="Your message..." rows="4" required></textarea>
+
+      <!-- Honeypot field -->
+      <input type="text" name="website" class="hidden">
+
+      <button type="submit" id="submitBtn">Send via Telegram</button>
+    </form>
+    <div id="result" class="hidden"></div>
+  </div>
+
+  <script src="telegram.js"></script>
+</body>
+
+</html>

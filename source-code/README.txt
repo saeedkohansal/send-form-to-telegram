@@ -1,0 +1,1 @@
+You can develop the `Complex Version` and `Simple Version`, just like the `Image Upload Support Version`, which I’ve included in the Telegram API tutorial series specifically for Cloudflare Pages and Cloudflare Workers.
