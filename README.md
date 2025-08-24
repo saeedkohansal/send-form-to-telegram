@@ -1,13 +1,45 @@
-📌 Repository Description
+# ✅ How to Send Website Form Data to Telegram (3 Demo Versions)
 
-This repository contains the source code for the Telegram Bot Development & API Course. It demonstrates how to send website form data to Telegram using different implementations:
+_Telegram Bot Development & API Course: Send HTML Form Data from Your Website to Telegram!_
 
-Simple Version
+![YouTube Thumbnail](images/telegram-form-data-to-telegram.png "How to Send Website Form Data to Telegram - YouTube Thumbnail")
 
-Complex Version
+Learn how to send data from your website forms to Telegram using JavaScript and the Telegram Bot API! This series covers three demo versions: Complex Version, Simple Version, and Image Upload Support Version. You'll see how to securely connect your frontend with Telegram via Cloudflare Workers and Pages, protect sensitive data like BOT TOKEN and CHAT ID, and handle text and image submissions. Perfect for web developers looking to integrate Telegram messaging into their websites. Watch and learn step-by-step!
 
-Image Upload Support Version
+# 🎥 Tutorial Video
+🔗 ***[https://youtu.be/eIxkX-J1K-4](https://youtu.be/eIxkX-J1K-4)*** | *Step-by-step guide*
 
-It also includes advanced setups with Cloudflare Pages and Cloudflare Workers, showing how to securely store bot credentials and send messages (text & images) through the Telegram API.
+<hr>
 
-🔗 Watch the full tutorial series on YouTube: [https://youtu.be/kOpSqUIpZhQ]
+# 🔴 Telegram Web App Live Demo
+🔗 ***[https://saeedkohansal.github.io/send-form-to-telegram/source-code/](https://saeedkohansal.github.io/send-form-to-telegram/source-code/)***
+
+<hr>
+
+<div align="center"><h1>📨 Telegram Form Demo 🖥️</h1></div>
+
+![Telegram Form Demo](images/telegram-form-demo.png "Telegram Form Demo")
+
+<hr>
+
+## If you enjoy my content, please consider supporting me! 😍🙏
+
+**💙 PAYPAL DONATION**
+
+https://paypal.me/gilgeekify
+
+**❤️ PATREON**
+
+https://www.patreon.com/gilgeekify
+
+**💛 BUY ME A COFFEE**
+
+https://www.buymeacoffee.com/gilgeekify
+
+**🪙 My Public Address To Receive BTC • Bitcoin**
+
+bc1qerc5ev074cqknu9nz589w4vjf5ecmhuc2df83h
+
+**🥈 My Public Address To Receive ETH • Ethereum**
+
+0x566A47B9731209A5144336D274D44224bfb9C0ea
