@@ -100,38 +100,6 @@ form.addEventListener('submit', async (e) => {
 
         if (!response.ok) throw new Error(result.error || 'Request failed');
 
-        // const BOT_TOKEN = '8161925579:AAG1q0x0BBGVBp5niETFUrGhI4y-5q82PX0';
-        // const CHAT_ID = '6862991002';
-
-        // const text = `📬 New Submission!\n\nName: ${formData.get('name')}\nEmail: ${formData.get('email')}\nMessage:\n${formData.get('message')}`;
-
-        // const telegramUrl = `https://api.telegram.org/bot${BOT_TOKEN}/sendMessage`;
-        // const response = await fetch(telegramUrl, {
-        //     method: 'POST',
-        //     headers: { 'Content-type': 'application/json' },
-        //     body: JSON.stringify({
-        //         chat_id: CHAT_ID,
-        //         text: text,
-        //         parse_mode: 'HTML'
-        //     })
-        // });
-
-        // if (!response.ok) throw new Error('Failed to send message');
-
-        // const imageFile = formData.get('image');
-        // if (imageFile && imageFile.size > 0) {
-        //     const photoUrl = `https://api.telegram.org/bot${BOT_TOKEN}/sendPhoto`;
-        //     const photoFormData = new FormData();
-        //     photoFormData.append('chat_id', CHAT_ID);
-        //     photoFormData.append('photo', imageFile);
-        //     photoFormData.append('caption', '📸 Uploaded image');
-
-        //     await fetch(photoUrl, {
-        //         method: 'POST',
-        //         body: photoFormData
-        //     });
-        // }
-
         showResult('Message sent successfully!', 'success');
         form.reset();
         filePreview.style.display = 'none';
