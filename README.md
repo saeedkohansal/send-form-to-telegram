@@ -90,14 +90,71 @@ Before starting this tutorial series, ensure you have:
 *Complete step-by-step guide covering all 6 episodes*
 
 ### Video Timestamps
+#### Episode 1: Form Demos
 - **0:00** - Intro
 - **0:20** - Welcome - series overview and goals
-- **1:07** - Episode 1 - Demo: 3 form versions
-- **4:35** - Episode 2 - Create Telegram bot and get Chat ID
-- **7:47** - Episode 3 - Connect form to Telegram API using JS
+- **1:07** - Episode 1 - Demo: 3 form versions (Complex / Image-support / Simple)
+- **1:45** - Test Form 1 - fill, select image, submit
+- **2:34** - Form 1 message received - inspect payload
+- **3:03** - Test Form 2 - image uploaded and optimized delivery
+- **3:52** - Test Form 3 - simple raw-data form
+- **4:14** - Episode 1 wrap and next steps
+
+#### Episode 2: Telegram Bot Setup
+- **4:35** - Episode 2 - Create Telegram bot and get Chat ID (BotFather + userinfobot)
+- **5:05** - Bot settings and privacy tips (avoid Telegram logo; username must end with "bot")
+- **6:12** - Copy bot token and save securely
+- **6:34** - Get chat ID with userinfobot - why token and chat ID matter
+- **7:32** - Episode 2 wrap
+
+#### Episode 3: Client-Side Implementation
+- **7:47** - Episode 3 - Connect chosen form to Telegram API using JS (image-upload version)
+- **9:01** - HTML form structure and app.js inclusion
+- **9:17** - DOM element selection and variables in JS
+- **9:54** - Define submit handler - preventDefault, disable button
+- **10:45** - try / catch / finally flow for UX and error handling
+- **11:53** - Extract FormData and prepare payload
+- **12:12** - Client-side BOT_TOKEN and CHAT_ID demo (insecure - learning only)
+- **13:24** - Define Telegram API endpoint and sendMessage fetch request
+- **14:03** - Fetch request details - headers and JSON body
+- **15:09** - Image validation - type and 5 MB limit
+- **15:45** - Prepare photo FormData and sendPhoto flow (base64 or form-data)
+- **16:55** - UI success message, reset form, clear preview
+- **17:32** - Live tests - text and image delivered from client demo
+- **18:52** - Security warning - client-side secrets exposed in DevTools
+- **19:35** - Episode 3 wrap - next: secure backend with Cloudflare
+
+#### Episode 4: Cloudflare Worker Introduction
 - **20:00** - Episode 4 - Why you need a server; Cloudflare Worker intro
-- **31:05** - Episode 5 - Implement Telegram API inside the Worker
-- **42:10** - Episode 6 - Deploy frontend to Cloudflare Pages
+- **20:30** - Demo - how BOT_TOKEN and CHAT_ID leak via DevTools Network tab
+- **23:19** - Create Worker project, worker JS, and wrangler.toml config
+- **25:26** - Install Wrangler and deploy test worker (login to wrangler deploy)
+- **28:50** - Set environment variables (BOT_TOKEN, CHAT_ID) via Wrangler or dashboard
+- **30:26** - Redeploy worker to inject env vars securely
+- **30:52** - Episode 4 wrap
+
+#### Episode 5: Server-Side Implementation
+- **31:05** - Episode 5 - Implement Telegram API inside the Worker (server-side)
+- **32:03** - Update frontend to POST to Worker URL (no secrets on client)
+- **33:45** - Worker structure - event listener to handleRequest (ES module)
+- **34:22** - CORS and OPTIONS preflight handling; origin validation
+- **36:13** - Extract FormData, format message, and sendMessage from Worker
+- **37:33** - Send image from Worker to Telegram via sendPhoto
+- **38:38** - Worker returns JSON success or error with CORS headers
+- **39:01** - Deploy updated worker; debug common runtime errors (quotes/backticks, case)
+- **40:38** - Test - message and image delivered; BOT_TOKEN and CHAT_ID not visible in network tab
+- **41:04** - Security recap - env vars hidden in Cloudflare dashboard
+
+#### Episode 6: Production Deployment
+- **42:10** - Episode 6 - Deploy frontend to Cloudflare Pages and link to Worker
+- **42:46** - Prepare Pages project, public/ output, and wrangler.pages config
+- **43:13** - Use two terminals for Pages and Worker; set Pages build output dir
+- **44:44** - Deploy Cloudflare Pages (wrangler pages deploy)
+- **45:22** - Pages appears in dashboard - site link visible
+- **46:05** - Update Worker allowed origin to Pages URL and redeploy worker
+- **47:02** - Final live tests from Pages - text and image delivered successfully
+- **48:04** - Production notes - env var behavior and checklist
+- **49:28** - Outro
 
 ---
 
