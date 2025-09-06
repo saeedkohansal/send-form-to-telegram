@@ -1,11 +1,11 @@
 # Submit Website Contact Form to Telegram Chat
 _Telegram Bot Development & API Course: Send HTML Form Data from Your Website to Telegram!_
 
-![YouTube Thumbnail](images/YouTube-Thumbnail.png "How to Send Website Form Data to Telegram - YouTube Thumbnail")
+![Tutorial video thumbnail demonstrating website form to Telegram integration using JavaScript and Bot API](images/YouTube-Thumbnail.png "Watch complete tutorial: Send website form data to Telegram step-by-step guide")
 
 ### 📐 System Architecture Diagram
-![Telegram Message Sender Architecture Diagram](images/Telegram-Message-Sender-Architecture-Diagram.gif "Telegram Message Sender Architecture Diagram")
-*Figure: Complete data flow from website form to Telegram via Cloudflare Workers*
+![System architecture diagram showing secure data flow from website form to Telegram via Cloudflare Workers and Bot API](images/Telegram-Message-Sender-Architecture-Diagram.gif "Complete system architecture: How form data flows from website to Telegram securely")
+*Figure: End-to-end data flow architecture for secure form submission to Telegram*
 
 ## 📬 About This Repository
 A complete, production-ready solution for sending website form submissions directly to Telegram using JavaScript and the Telegram Bot API.
@@ -21,7 +21,7 @@ A complete, production-ready solution for sending website form submissions direc
   Source code, live examples, and reusable templates for immediate integration.
 
 ### Why This?
-✅ **Zero Server Costs**: Leverage Cloudflare’s free tier  
+✅ **Zero Server Costs**: Leverage Cloudflare's free tier  
 ✅ **Security-First**: Secrets management best practices  
 ✅ **Beginner-Friendly**: Detailed tutorials + commented code  
 ✅ **Production-Ready**: Optimized for scalability and reliability  
