@@ -9,7 +9,7 @@ _Telegram Bot Development & API Course: Send HTML Form Data from Your Website to
 Learn how to send data from your website forms to Telegram using JavaScript and the Telegram Bot API! This series covers three demo versions: Complex Version, Simple Version, and Image Upload Support Version. You'll see how to securely connect your frontend with Telegram via Cloudflare Workers and Pages, protect sensitive data like BOT TOKEN and CHAT ID, and handle text and image submissions. Perfect for web developers looking to integrate Telegram messaging into their websites. Watch and learn step-by-step!
 
 # 🎥 Tutorial Video
-🔗 ***[https://youtu.be/eIxkX-J1K-4](https://youtu.be/kOpSqUIpZhQ)*** | *Step-by-step guide*
+🔗 ***[https://youtu.be/aRREKXloWe8](https://youtu.be/aRREKXloWe8)*** | *Step-by-step guide*
 
  
 
