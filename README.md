@@ -86,7 +86,7 @@ Before starting this tutorial series, ensure you have:
 ---
 
 ## 🎥 Tutorial Video
-🔗 ***[https://youtu.be/aRREKXloWe8](https://youtu.be/aRREKXloWe8)*** * | Complete step-by-step guide covering all 6 episodes*
+🔗 ***[https://youtu.be/aRREKXloWe8](https://youtu.be/aRREKXloWe8)*** **|** *Complete step-by-step guide covering all 6 episodes*
 
 ### Video Timestamps
 #### Episode 1: Form Demos
@@ -166,9 +166,9 @@ Before starting this tutorial series, ensure you have:
 🔗 https://github.com/saeedkohansal/send-form-to-telegram
 
 ### Deployment Guides
-- **Worker Deployment**: 
+- **Worker Deployment**:  
   🔗 https://github.com/saeedkohansal/send-form-to-telegram/blob/main/source-code/Image%20Upload%20Support%20Version%20%2B%20Cloudflare%20Workers/Worker/HOW-TO-DEPLOY.txt
-- **Pages Deployment**: 
+- **Pages Deployment**:  
   🔗 https://github.com/saeedkohansal/send-form-to-telegram/blob/main/source-code/Image%20Upload%20Support%20Version%20%2B%20Cloudflare%20Pages/HOW-TO-DEPLOY.txt
 
 ---
