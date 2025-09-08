@@ -62,9 +62,9 @@ This comprehensive series consists of 6 episodes that guide you through the enti
 
 ### Key Features
 ✅ **Three Progressive Implementations**:
-- **Simple Version**: Basic form-to-Telegram integration  
-- **Complex Version**: Advanced features with validation & formatting  
-- **Image Upload Support Version**: Handle file attachments seamlessly  
+- **Simple Version**: Basic form-to-Telegram integration
+- **Complex Version**: Advanced features with validation & formatting
+- **Image Upload Support Version**: Handle file attachments seamlessly
 
 ✅ **Security-First Approach**:
 - Protect sensitive tokens using Cloudflare Workers
@@ -86,8 +86,7 @@ Before starting this tutorial series, ensure you have:
 ---
 
 ## 🎥 Tutorial Video
-🔗 ***[https://youtu.be/aRREKXloWe8](https://youtu.be/aRREKXloWe8)***  
-*Complete step-by-step guide covering all 6 episodes*
+🔗 ***[https://youtu.be/aRREKXloWe8](https://youtu.be/aRREKXloWe8)*** * | Complete step-by-step guide covering all 6 episodes*
 
 ### Video Timestamps
 #### Episode 1: Form Demos
